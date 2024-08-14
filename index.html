@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="Icon"  type="image/png" href="i class="fa-solid fa-chair"></i>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="./logo.png" width="100px" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+            <div class="d-flex flex-sm-column text-center m-5 pt-3">
+                <i class="fa-solid fa-store"></i>
+                <p>Store</p>   
+            </div>
+            <div class="d-flex flex-sm-column text-center m-5 pt-3">
+                <i class="fa-regular fa-user"></i>
+                <p>Profile</p>   
+            </div>
+            <div class="d-flex flex-sm-column text-center m-5 pt-3">
+                <i class="fa-regular fa-heart"></i>
+                <p>Wishlist</p>   
+            </div>
+            <div class="d-flex flex-sm-column text-center m-5 pt-3">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <p>Cart</p>   
+            </div>
+
+
+          </div>
+        </div>
+      </nav> 
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          
+          <div class="collapse navbar-collapse " id="navbarText">
+            <ul class="navbar-nav  mb-2 mb-lg-0 ">
+              <li class="nav-item ms-5 ps-5">
+                <a class="nav-link" aria-current="page" href="#">Sofas</a>
+              </li>
+              <li class="nav-item ms-4 ps-4">
+                <a class="nav-link" href="#">Living</a>
+              </li>
+              <li class="nav-item  ms-4 ps-4">
+                <a class="nav-link" href="#">Bedroom</a>
+              </li>
+              <li class="nav-item ms-4 ps-4">
+                <a class="nav-link" href="#">Dining & Kitchen</a>
+              </li>
+              <li class="nav-item ms-4 ps-4">
+                <a class="nav-link" href="#">Storage</a>
+              </li>
+              <li class="nav-item ms-4 ps-4">
+                <a class="nav-link" href="#">Study & Office</a>
+              </li>
+              <li class="nav-item ms-4 ps-4">
+                <a class="nav-link" href="#">Mattresses</a>
+              </li>
+              <li class="nav-item ms-4 ps-4">
+                <a class="nav-link" href="#">Decor</a>
+              </li>
+              <li class="nav-item ms-4 ps-4">
+                <a class="nav-link" href="#">Lamps & Lighting</a>
+              </li>
+              <li class="nav-item ms-4 ps-4">
+                <a class="nav-link" href="#">Furnishings</a>
+              </li>
+              <li class="nav-item ms-4 ps-4">
+                <a class="nav-link" href="#">Outdoor</a>
+              </li>
+              <li class="nav-item ms-4 ps-4">
+                <a class="nav-link" href="#">WS Value</a>
+              </li>
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://img.freepik.com/free-photo/mid-century-modern-living-room-interior-design-with-monstera-tree_53876-129804.jpg?w=1060&t=st=1723186740~exp=1723187340~hmac=2dd9764635a26623e1db463ec849c4f2b85dc4d20e9535ae7e4e5932e33bb695" class="d-block w-100" height="1200px" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://img.freepik.com/free-photo/mid-century-modern-living-room-interior-design-with-monstera-tree_53876-129805.jpg?w=1060&t=st=1723186782~exp=1723187382~hmac=f1d73383db754033f4c9dbf2ff2f99bcc8d7cc48e0162119dfff243dba793133" class="d-block w-100" height="1200px"alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://img.freepik.com/free-photo/living-room-scandinavian-interior-design_53876-146865.jpg?w=1060&t=st=1723186823~exp=1723187423~hmac=9336be92bbf758c6d82c4685d5d9cb313378c05d6f5447a9fe0e438ffd1d6376" class="d-block w-100" height="1200px" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div class="row ps-5 ms-5 text-center">
+        <div class="mt-5 mb-5">
+          <h1>Top Picks For You</h1>
+          <h6>Impressive Collection For Your Dream Home</h6>
+        </div>
+        <div class="col-2">
+            <img src="https://magnoliahome.co.in/wp-content/uploads/2021/08/Jasper-Arm-Chair-1.1-1.jpg" width="150px" height="150px" class="rounded-circle" alt="">
+            <p class="mt-3 fw-bolder">Chair</p>
+        </div>
+        <div class="col-2">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnXlB-skaTp6kwAEWWv14s0CKyqgGmT0MvdA&s" width="150px" height="150px" class="rounded-circle" alt="">
+            <p class="mt-3 fw-bolder">Sofa Sets</p>
+        </div>
+        <div class="col-2">
+            <img src="https://thesleepcompany.in/cdn/shop/files/1_0eeb87cc-c8ff-4633-a5ec-c7644516555d.jpg?v=1715751285&width=1445" width="150px" height="150px" class="rounded-circle" alt="">
+            <p class="mt-3 fw-bolder">Recliners</p>
+        </div>
+        <div class="col-2">
+            <img src="https://images.woodenstreet.de/image/data/wardrobes-mdf/zyra-4-door-wardrobe-without-mirror-gothic-grey-classic-oak-finish/new-logo/1.jpg" width="150px" height="150px" class="rounded-circle" alt="">
+            <p class="mt-3 fw-bolder">Wardrobes</p>
+        </div>
+        <div class="col-2">
+            <img src="https://maqboolinterior.pk/wp-content/uploads/2022/08/7.jpg" width="150px" height="150px" class="rounded-circle" alt="">
+            <p class="mt-3 fw-bolder">sofa Cum Beds</p>
+        </div>
+        <div class="col-2">
+            <img src="https://images.woodenstreet.de/image/data/tv-units-mdf/caden-tv-unit/exotic-teak-frosty-white/updated/new-logo/7.jpg" width="150px" height="150px" class="rounded-circle" alt="">
+            <p class="mt-3 fw-bolder">TV Units</p>
+        </div>
+
+      </div>
+      <div class="row ps-5 ms-5 text-center">
+        <div class="col-2">
+            <img src="https://m.media-amazon.com/images/I/61sm+7aAXxL._AC_UF894,1000_QL80_.jpg" width="150px" height="150px" class="rounded-circle" alt="">
+            <p class="mt-3 fw-bolder">Book Shelves</p>
+        </div>
+        <div class="col-2">
+            <img src="https://www.hokybo.com/CompanyData/Product/13MD081A(HG)/1.jpg" width="150px" height="150px" class="rounded-circle" alt="">
+            <p class="mt-3 fw-bolder">Dining Table Sets</p>
+        </div>
+        <div class="col-2">
+            <img src="https://mysleepyhead.com/media/catalog/product/m/e/menu_coffee_table.jpg" width="150px" height="150px" class="rounded-circle" alt="">
+            <p class="mt-3 fw-bolder">Coffee Tables</p>
+        </div>
+        <div class="col-2">
+            <img src="https://5.imimg.com/data5/HI/AY/EG/SELLER-63609122/modern-study-tables.jpg" width="150px" height="150px" class="rounded-circle" alt="">
+            <p class="mt-3 fw-bolder">Study Tables</p>
+        </div>
+        <div class="col-2">
+            <img src="https://m.media-amazon.com/images/I/61rx5DBXiWL.jpg" width="150px" height="150px" class="rounded-circle" alt="">
+            <p class="mt-3 fw-bolder">Home Decor</p>
+        </div>
+        <div class="col-2">
+            <img src="https://images.woodenstreet.de/image/data/home-decors/lamps-lighting/floor-lamps/beige-wooden-floor-lamp-with-white-shade/beige-wooden-floor-lamp-with-white-shade/1.jpg" width="150px" height="150px" class="rounded-circle" alt="">
+            <p class="mt-3 fw-bolder">Lamps & Lightings</p>
+        </div>
+      </div>
+
+      <div class="m-5 p-5">
+        <h1>Explore Essential Home Furniture</h1>
+        <h6>Design Your Home Decor Your way</h6>
+      </div>
+
+      <!--cards-->
+      <div class="row p-2 m-2">
+        <div class="col-3">
+            <div class="card" style="width: 24rem;">
+                <img src="https://magnoliahome.co.in/wp-content/uploads/2021/08/Jasper-Arm-Chair-1.1-1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Chair</h5>
+                  <p class="card-text">Oak Wood ₹9,999</p>
+                  <a href="#" class="btn btn-primary">Buy</a>
+                  <a href="#" class="btn btn-secondary">Add To Cart</a>
+                </div>
+              </div>
+        </div>
+        <div class="col-3">
+            <div class="card" style="width: 24rem;">
+                <img src="https://thesleepcompany.in/cdn/shop/files/1_0eeb87cc-c8ff-4633-a5ec-c7644516555d.jpg?v=1715751285&width=1445" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Recliner</h5>
+                  <p class="card-text">Teak ₹15,999</p>
+                  <a href="#" class="btn btn-primary">Buy</a>
+                  <a href="#" class="btn btn-secondary">Add To Cart</a>
+                </div>
+              </div>
+        </div>
+        <div class="col-3">
+            <div class="card" style="width: 24rem;">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnXlB-skaTp6kwAEWWv14s0CKyqgGmT0MvdA&s" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Sofa Set</h5>
+                  <p class="card-text">Oak Wood ₹14,499</p>
+                  <a href="#" class="btn btn-primary">Buy</a>
+                  <a href="#" class="btn btn-secondary">Add To Cart</a>
+                </div>
+              </div>
+        </div>
+        <div class="col-3">
+          <div class="card" style="width: 24rem;">
+              <img src="https://ak1.ostkcdn.com/images/products/is/images/direct/d2bf6d9b6d71b073a14b828dab9244de58ea43a3/Palace-Imports-100%25-Solid-Wood-Cosmo-3-Door-Wardrobe-Armoire-with-Solid-Wood-or-Mirrored-Doors.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Wardrobe</h5>
+                <p class="card-text">Oak Wood ₹17,999</p>
+                <a href="#" class="btn btn-primary">Buy</a>
+                <a href="#" class="btn btn-secondary">Add To Cart</a>
+              </div>
+            </div>
+      </div>
+      <div class="mt-5 mb-5 text-center">
+        <h1>95+ Experience Stores Across India</h1>
+        <h6>Get UPTO 10% OFF* on orders placed at your nearest stores</h6>
+      </div>
+      <div class=""><img src="./Untitled.png" alt=""></div>
+
+
+
+
+      <div id="carouselExampleIndicators" class="carousel slide ms-5 ps-5 me-5 pe-5 mt-5 pt-5">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row">
+              <div class="col-3">
+                <div class="card" style="width: 18rem;">
+                  <img src="https://images.woodenstreet.de/image/cache/data%2F1722080848WhatsApp+Image+2024-07-22+at+7.27.38+PM-max-480.jpeg" class="card-img-top"  width="200px" height="200px" alt="...">
+                  <div class="card-body">
+                    <p class="card-text">My father-in-law sent me the link to this website. And he suggested I purchase the Marriott sofa set. I researched for a while and then ordered it for my home. Its design and quality are the greatest of all the other sofa sets I explored in the market. Its seats are so comfortable that we spend most of our day chilling on the sofa. Also, I will suggest everyone buy this sofa set design today. </p>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <h5>Priya Bose</h5>
+                    <p>Noida</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-3">
+                <div class="card" style="width: 18rem;">
+                  <img src="https://images.woodenstreet.de/image/cache/data%2F1721469631WhatsApp+Image+2024-07-19+at+10.04.22+PM-max-480.jpeg" class="card-img-top" width="200px" height="200px" alt="...">
+                  <div class="card-body">
+                    <p class="card-text">My father-in-law sent me the link to this website. And he suggested I purchase the Marriott sofa set. I researched for a while and then ordered it for my home. Its design and quality are the greatest of all the other sofa sets I explored in the market. Its seats are so comfortable that we spend most of our day chilling on the sofa. Also, I will suggest everyone buy this sofa set design today. </p>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <h5>Rithesh Kumar Gupta</h5>
+                    <p>Hyderabad</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-3">
+                <div class="card" style="width: 18rem;">
+                  <img src="https://photos-us.bazaarvoice.com/photo/2/cGhvdG86bmVpZ2hib3I/999fdf3d-b9c2-55d0-ab85-84cb07d01467" class="card-img-top" width="200px" height="200px" alt="...">
+                  <div class="card-body">
+                    <p class="card-text">My father-in-law sent me the link to this website. And he suggested I purchase the Marriott sofa set. I researched for a while and then ordered it for my home. Its design and quality are the greatest of all the other sofa sets I explored in the market. Its seats are so comfortable that we spend most of our day chilling on the sofa. Also, I will suggest everyone buy this sofa set design today. </p>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <h5>Gowri Sundeep</h5>
+                    <p>Hyderabad</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-3">
+                <div class="card" style="width: 18rem;">
+                  <img src="https://images.woodenstreet.de/image/cache/data%2F1721471383WhatsApp+Image+2024-07-15+at+4.25.34+PM-max-480.jpeg" class="card-img-top" width="200px" height="200px" alt="...">
+                  <div class="card-body">
+                    <p class="card-text">My father-in-law sent me the link to this website. And he suggested I purchase the Marriott sofa set. I researched for a while and then ordered it for my home. Its design and quality are the greatest of all the other sofa sets I explored in the market. Its seats are so comfortable that we spend most of our day chilling on the sofa. Also, I will suggest everyone buy this sofa set design today. </p>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <h5>Mr.Kaushik Dutta</h5>
+                    <p>Bangalore</p>
+                  </div>
+                </div>
+              </div>
+            </div> 
+          </div>
+          
+          
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <footer class="bg-light">
+        <div class="row p-5">
+          <div class="col-1">
+
+          </div>
+          <div class="col-2">
+            <h3>Our Company</h3>
+            <p>About Us</p>
+            <p>Career</p>
+            <p>Media</p>
+            <p>Blog</p>
+            <p>Customer Stories</p>
+            <p>Our Stores</p>
+          </div>
+          <div class="col-2">
+            <h3>Useful Links</h3>
+            <p>Custom Furniture</p>
+            <p>Exporters</p>
+            <p>Buy in Bulk</p>
+            <p>Hotel Furniture</p>
+            <p>Delivery Location</p>
+            <p>Sitemap</p>
+          </div>
+          <div class="col-2">
+            <h3>Shop By Room</h3>
+            <p>Living Room</p>
+            <p>Bedroom</p>
+            <p>Dining Room</p>
+            <p>Kids Room</p>
+            <p>Modular Furniture</p>
+            <p>Modular Kitchen</p>
+            <p>Modular Wardrobe</p>
+          </div>
+          <div class="col-2">
+            <h3>Partners</h3>
+            <p>Become a Franchise</p>
+            <p>Sell on Tree Trunk</p>
+            <p>Design Partner</p>
+          </div>
+          <div class="col-2">
+            <h3>Need Help</h3>
+            <p>Help Center</p>
+            <p>Contact Us</p>
+            <p>Ask Experts</p>
+            <p>Track Your Order</p>
+          </div>
+          <div class="col-1">
+
+          </div>
+        </div>
+
+
+
+
+      </footer>     
+       
+      </div>
+</body>
+</html>
